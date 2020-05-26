@@ -5,12 +5,11 @@ def create_app():
 
     @app.route('/')
     def index():
-        return "Halo Flask, lieur ey "
+        return "Halo Flask, lieur euy "
 
     @app.route('/about')
     def about():
-        return "Tentang saya"
+        return "Tentang saya ........"
 
     return app
-
 #app.run('0.0.0.0', debug=True)
